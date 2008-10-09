@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lfm status="ok">
+<results for="cher" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">
+<opensearch:Query role="request" searchTerms="cher" startPage="1"/>
+<opensearch:totalResults>404</opensearch:totalResults>
+<opensearch:startIndex>0</opensearch:startIndex>
+<opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+<artistmatches>
+<artist>
+    <name>Cher</name>
+    <mbid>bfcc6d75-a6a5-4bc6-8282-47aec8531818</mbid>
+    <url>www.last.fm/music/Cher</url>
+    <image_small>http://userserve-ak.last.fm/serve/34/283267.jpg</image_small>
+    <image>http://userserve-ak.last.fm/serve/126/283267.jpg</image>
+    <streamable>1</streamable>
+</artist>
+<artist>
+    <name>Sonny &amp; Cher</name>
+    <mbid>3d6e4b6d-2700-458c-9722-9021965a8164</mbid>
+    <url>www.last.fm/music/Sonny%2B%2526%2BCher</url>
+    <image_small>http://userserve-ak.last.fm/serve/34/244080.jpg</image_small>
+    <image>http://userserve-ak.last.fm/serve/126/244080.jpg</image>
+    <streamable>1</streamable>
+</artist>
+<artist>
+    <name>Cher &amp; Meatloaf</name>
+    <mbid/>
+    <url>www.last.fm/music/Cher%2B%2526%2BMeatloaf</url>
+    <image_small/>
+    <image/>
+    <streamable>0</streamable>
+</artist>
+<artist>
+    <name>Eros Ramazzotti &amp; Cher</name>
+    <mbid/>
+    <url>www.last.fm/music/Eros%2BRamazzotti%2B%2526%2BCher</url>
+    <image_small>http://userserve-ak.last.fm/serve/34/113988.jpg</image_small>
+    <image>http://userserve-ak.last.fm/serve/126/113988.jpg</image>
+    <streamable>0</streamable>
+</artist>
+<artist>
+    <name>Eros Ramazotti &amp; Cher</name>
+    <mbid/>
+    <url>www.last.fm/music/Eros%2BRamazotti%2B%2526%2BCher</url>
+    <image_small>http://userserve-ak.last.fm/serve/34/8447715.jpg</image_small>
+    <image>http://userserve-ak.last.fm/serve/126/8447715.jpg</image>
+    <streamable>0</streamable>
+</artist>
+<artist>
+    <name>Tina Turner, Elton John, Cher</name>
+    <mbid/>
+    <url>www.last.fm/music/Tina+Turner%2C+Elton+John%2C+Cher</url>
+    <image_small>http://userserve-ak.last.fm/serve/34/2971915.jpg</image_small>
+    <image>http://userserve-ak.last.fm/serve/126/2971915.jpg</image>
+    <streamable>0</streamable>
+</artist>
+<artist>
+    <name>Peter Cetera &amp; Cher</name>
+    <mbid/>
+    <url>www.last.fm/music/Peter%2BCetera%2B%2526%2BCher</url>
+    <image_small/>
+    <image/>
+    <streamable>0</streamable>
+</artist>
+<artist>
+    <name>Sony &amp; Cher</name>
+    <mbid/>
+    <url>www.last.fm/music/Sony%2B%2526%2BCher</url>
+    <image_small>http://userserve-ak.last.fm/serve/34/2509570.jpg</image_small>
+    <image>http://userserve-ak.last.fm/serve/126/2509570.jpg</image>
+    <streamable>0</streamable>
+</artist>
+<artist>
+    <name>Cher &amp; Eros Ramazotti</name>
+    <mbid/>
+    <url>www.last.fm/music/Cher%2B%2526%2BEros%2BRamazotti</url>
+    <image_small>http://userserve-ak.last.fm/serve/34/10691045.jpg</image_small>
+    <image>http://userserve-ak.last.fm/serve/126/10691045.jpg</image>
+    <streamable>0</streamable>
+</artist>
+<artist>
+    <name>Meat Loaf &amp; Cher</name>
+    <mbid/>
+    <url>www.last.fm/music/Meat%2BLoaf%2B%2526%2BCher</url>
+    <image_small>http://userserve-ak.last.fm/serve/34/573414.jpg</image_small>
+    <image>http://userserve-ak.last.fm/serve/126/573414.jpg</image>
+    <streamable>0</streamable>
+</artist>
+<artist>
+    <name>Cher With Beavis And Butthead</name>
+    <mbid/>
+    <url>www.last.fm/music/Cher+With+Beavis+And+Butthead</url>
+    <image_small>http://userserve-ak.last.fm/serve/34/560290.jpg</image_small>
+    <image>http://userserve-ak.last.fm/serve/126/560290.jpg</image>
+    <streamable>0</streamable>
+</artist>
+<artist>
+    <name>Meat Loaf (with Cher)</name>
+    <mbid/>
+    <url>www.last.fm/music/Meat+Loaf+%28with+Cher%29</url>
+    <image_small/>
+    <image/>
+    <streamable>1</streamable>
+</artist>
+<artist>
+    <name>Cher &amp; Peter Cetra</name>
+    <mbid/>
+    <url>www.last.fm/music/Cher%2B%2526%2BPeter%2BCetra</url>
+    <image_small/>
+    <image/>
+    <streamable>0</streamable>
+</artist>
+<artist>
+    <name>Cher Sonny &amp; Cher</name>
+    <mbid/>
+    <url>www.last.fm/music/Cher%2BSonny%2B%2526%2BCher</url>
+    <image_small/>
+    <image/>
+    <streamable>0</streamable>
+</artist>
+<artist>
+    <name>Cher w/ Beavis &amp; Butt-Head</name>
+    <mbid/>
+    <url>www.last.fm/music/Cher%2Bw%252F%2BBeavis%2B%2526%2BButt-Head</url>
+    <image_small>http://userserve-ak.last.fm/serve/34/3033501.jpg</image_small>
+    <image>http://userserve-ak.last.fm/serve/126/3033501.jpg</image>
+    <streamable>0</streamable>
+</artist>
+<artist>
+    <name>Eros Ramazzotti ft. Cher</name>
+    <mbid/>
+    <url>www.last.fm/music/Eros+Ramazzotti+ft.+Cher</url>
+    <image_small>http://userserve-ak.last.fm/serve/34/5771136.jpg</image_small>
+    <image>http://userserve-ak.last.fm/serve/126/5771136.jpg</image>
+    <streamable>0</streamable>
+</artist>
+<artist>
+    <name>Cher --do you believe in life</name>
+    <mbid/>
+    <url>www.last.fm/music/Cher+--do+you+believe+in+life</url>
+    <image_small/>
+    <image/>
+    <streamable>0</streamable>
+</artist>
+<artist>
+    <name>Cher With Beavis And Butt-head</name>
+    <mbid>b0bafb6e-16e3-4084-920e-6e081475838d</mbid>
+    <url>www.last.fm/music/Cher+With+Beavis+And+Butt-head</url>
+    <image_small/>
+    <image/>
+    <streamable>0</streamable>
+</artist>
+<artist>
+    <name>Sunny and Cher</name>
+    <mbid/>
+    <url>www.last.fm/music/Sunny+and+Cher</url>
+    <image_small/>
+    <image/>
+    <streamable>0</streamable>
+</artist>
+<artist>
+    <name>Rod Stewart &amp; Cher</name>
+    <mbid/>
+    <url>www.last.fm/music/Rod%2BStewart%2B%2526%2BCher</url>
+    <image_small>http://userserve-ak.last.fm/serve/34/7618659.jpg</image_small>
+    <image>http://userserve-ak.last.fm/serve/126/7618659.jpg</image>
+    <streamable>0</streamable>
+</artist>
+</artistmatches>
+</results></lfm>
