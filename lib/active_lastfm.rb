@@ -2,12 +2,14 @@ require 'rubygems'
 require 'activeresource'
 require 'patch'
 
+# This abstract base-class extends ActiveResource::Base to make requests to last.fm
+# Based largely on the ActiveYouTube examples found at:
+# * link:http://www.quarkruby.com/2008/1/15/activeresource-and-youtube
+# * link:http://www.quarkruby.com/2008/3/11/consume-non-rails-style-rest-apis
+# * link:http://www.quarkruby.com/2008/2/12/active-youtube
 class ActiveLastfm < ActiveResource::Base
+  # The core Last.fm WS URL is the only URI used in this interface
   self.site = 'http://ws.audioscrobbler.com/2.0/'
-  # This abstract base-class extends ActiveResource::Base to make requests to last.fm
-  # Based largely on the ActiveYouTube examples found at:
-  # - http://www.quarkruby.com/2008/1/15/activeresource-and-youtube
-  # - http://www.quarkruby.com/2008/3/11/consume-non-rails-style-rest-apis
 
   class << self
     ## Remove format from the url.

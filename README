@@ -1,0 +1,54 @@
+= Active Last.fm
+
+link:http://github.com/thesmith/active_lastfm/tree/master
+
+Active Last.fm is a client wrapper around the [http://last.fm last.fm] [http://www.last.fm/api/intro 2.0 web-services] based around ActiveResource.
+
+== Overview
+
+This wrapper is really simple at the moment. Last.fm 2.0's web-services provide an XML-RPC over XML/HTTP style interface to a load of interesting music and user information. ActiveResource is well tailored for purist RESTful interfaces but not for action-oriented services. This project basically overrides ActiveResource's URL creation for Last.fm's static URL so that the developer can simply wrap ActiveResource's default methods to create their own models around Last.fm action types.
+
+== References
+
+I really haven't done all that much myself here, here are a list of articles / projects that I've borrowed from:
+ * link:http://www.quarkruby.com/2008/1/15/activeresource-and-youtube
+ * link:http://www.quarkruby.com/2008/3/11/consume-non-rails-style-rest-apis
+ * link:http://www.quarkruby.com/2008/2/12/active-youtube
+ * link:http://github.com/rails/rails/tree/master/activeresource
+
+== Usage
+
+For example, if you wanted to use Last.fm's music ontology to create an Artist model then you might set it up something like this:
+
+	require 'active_lastfm'
+	class Artist < ActiveLastfm
+	  def search(artist)
+	    search_result = self.find(:first, :params => {
+	        :method => 'artist.search',
+	        :artist => artist,
+	        :api_key => 'b25b959554ed76058ac220b7b2e0a026'
+	    })
+	
+	    search_result.results.artistmatches.artist
+	  end
+	end
+
+Now, obviously, that's fairly buggy, what with the lack of result checking and coercing, but you get the idea. The API key used is the one that Last.fm have in their examples, so I'd suggest you go get your own one.
+
+== Testing
+
+The current unit tests use ActiveResource::HttpMock to have the mock service respond to requests and return cached results from Last.fm, stored in 'test/fixtures/'. The current methods tested are:
+ * track.search
+ * artist.search
+ * artist.gettoptracks
+
+These tests pass when run under Rake from a checked out copy, but they fail, horribly, when you test under gem (say with a: sudo gem install active_lastfm -t). Hopefully I'll get round to fixing that!
+
+== ToDo
+
+ * Proper documentation.
+ * Set up a proper release process from link:http://github.com/thesmith/active_lastfm/tree/master to link:http://rubyforge.org/projects/active-lastfm/.
+ * Start working out / test all the ActiveResource methods other than 'find'.
+ * Create re-usable models.
+ * Make sure I remove the ActiveResource patches that I've had to use.
+
