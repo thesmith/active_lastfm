@@ -1,7 +1,9 @@
 require 'rubygems'
 require 'activeresource'
+require 'patch'
 
 class ActiveLastfm < ActiveResource::Base
+  self.site = 'http://ws.audioscrobbler.com/2.0/'
   # This abstract base-class extends ActiveResource::Base to make requests to last.fm
   # Based largely on the ActiveYouTube examples found at:
   # - http://www.quarkruby.com/2008/1/15/activeresource-and-youtube

@@ -1,3 +1,4 @@
+$:.unshift "#{File.dirname(__FILE__)}/../test"
 require 'abstract_unit'
 require 'active_lastfm'
 
@@ -12,6 +13,7 @@ class ActiveLastfmTest < Test::Unit::TestCase
     ActiveResource::HttpMock.respond_to do |mock|
       mock.get "/2.0/?api_key=b25b959554ed76058ac220b7b2e0a026&artist=cher&method=artist.search", {}, feed("artist.search")
       mock.get "/2.0/?api_key=b25b959554ed76058ac220b7b2e0a026&method=track.search&track=Belive", {}, feed("track.search")
+      mock.get "/2.0/?api_key=b25b959554ed76058ac220b7b2e0a026&artist=cher&method=artist.gettoptracks", {}, feed("artist.track.search")
     end
   end
 
@@ -39,5 +41,16 @@ class ActiveLastfmTest < Test::Unit::TestCase
     assert_not_nil result
     assert_not_nil result.results.trackmatches
     assert_equal 20, result.results.trackmatches.track.size
+  end
+
+  def test_artist_track_search
+    result = ActiveLastfm.find(:first, :params => {
+        :api_key => 'b25b959554ed76058ac220b7b2e0a026',
+        :artist  => 'cher',
+        :method  => 'artist.gettoptracks',
+    })
+    assert_not_nil result
+    assert_not_nil result.toptracks
+    assert_equal 50, result.toptracks.track.size
   end
 end
